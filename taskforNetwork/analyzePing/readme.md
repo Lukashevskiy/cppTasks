@@ -11,7 +11,7 @@ ping -c 1000 github.com > stat.txt
 после нужно просто спарсить вот такую структуру файла и вытащить из него циферки  -)
 
 ### структура файла
-![Image alt](https://github.com/Lukashevskiy/cppTasks/raw/master/taskforNetwork/analyzePing/file-stats.png)
+![Image alt](https://github.com/Lukashevskiy/cppTasks/raw/master/taskforNetwork/analyzePing/file-stats.png=400x)
 
 циферки получены, дальше группируем циферки по повторяемости (группирую с разницей в 10 миллисекунд для наглядности)
 и в конце просто подставляем график нормального распределения и видем что-то отдаленно совпадающее.
