@@ -1,6 +1,6 @@
-#Вычисление маски подсети по заданному размеру
+# Вычисление маски подсети по заданному размеру
 
-##Код
+## Код
 ```cpp
 #include <iostream>
 #include <bitset>
@@ -20,7 +20,9 @@ int main(){
 	return 0;
 }
 ```
-##пример работы кода
-[Image alt](https://github.com/Lukashevskiy/cppTasks/raw/master/taskforNetwork/sizeMask/example1.png)
-[Image alt](https://github.com/Lukashevskiy/cppTasks/raw/master/taskforNetwork/sizeMask/example2.png)
+## пример работы кода
+
+![Image alt](https://github.com/Lukashevskiy/cppTasks/raw/master/taskforNetwork/sizeMask/example1.png)
+
+![Image alt](https://github.com/Lukashevskiy/cppTasks/raw/master/taskforNetwork/sizeMask/example2.png)
 
