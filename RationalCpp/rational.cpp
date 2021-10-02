@@ -2,24 +2,22 @@
 #include "rational.h"
 #include <iostream>
 
-using namespace std;
-
 Rational::Rational(){
-    this -> numer = 0;
-    this -> denom = 1;
-    simplify();
+    numer = 0;
+    denom = 1;
+    //simplify();
 }
 
 Rational::Rational(int number){
-    this -> numer = number;
-    this -> denom = 1;
-    simplify();
+    numer = number;
+    denom = 1;
+    //simplify();
 }
 
 Rational::Rational(int n, int d){
-    this -> numer = n;
-    this -> denom = d;
-    simplify();
+    numer = n;
+    denom = d;
+    //simplify();
 }
 
 
@@ -30,9 +28,11 @@ Rational Rational::operator -() const{
 
 
 Rational& Rational::operator +=(const Rational& r){
-    numer = (numer*r.denom+denom*r.numer);
+    numer = (numer * r.denom + denom * r.numer);
     denom *= r.denom;
-    simplify();
+    //simplify();
+    std::cout << *this << std::endl;
+
     return *this;
 }
 
@@ -55,7 +55,7 @@ Rational& Rational::operator -(const Rational& r) const{
 Rational& Rational::operator *=(const Rational& r){
     numer = numer * r.numer;
     denom = denom * r.denom;
-    simplify();
+    //simplify();
     return *this;
 }
 
@@ -68,7 +68,7 @@ Rational& Rational::operator *(const Rational& r) const{
 Rational& Rational::operator /=(const Rational& r){
     numer = numer * r.denom;
     denom = denom * r.numer;
-    simplify();
+    //simplify();
     return *this;
 }
 
@@ -139,12 +139,12 @@ Rational::operator double() const{
 
 
 istream& operator >>(istream& in, Rational& r){
-    in>>r.numer>>r.denom;
+    in >> r.numer >> r.denom;
     return in;
 }
 
 ostream& operator <<(ostream& out, const Rational& r){
-    out<<r.numer<<"/"<<r.denom;
+    out << r.numer << "/" << r.denom;
     return out;
 }
 

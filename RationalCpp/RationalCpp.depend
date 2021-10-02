@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1632466525 source:/home/dmitriy/Documents/cppTasks/RationalCpp/main.cpp
+	<iostream>
+	"rational.h"
+
+1632467039 /home/dmitriy/Documents/cppTasks/RationalCpp/rational.h
+

@@ -16,7 +16,7 @@ public:
     Rational(int n, int d);
 
     //переопределение операторов
-    Rational& operator =(const Rational& r);
+    //Rational& operator =(const Rational& r);
 
     Rational& operator +=(const Rational& r);
     Rational& operator +(const Rational& r) const;

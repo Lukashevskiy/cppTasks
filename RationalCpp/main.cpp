@@ -5,9 +5,15 @@ using namespace std;
 
 int main(){
 
-    Rational a();
-    Rational b(1);
-    Rational c(1,1);
+    Rational a(1,2);
+    Rational b(3, 4);
+    cout << a;
+    cout << endl;
+    cout << b;
+    cout << endl;
+    Rational c = a+b;
+    //a = a + b;
+    cout << a+b;
 
     return 0;
 }
