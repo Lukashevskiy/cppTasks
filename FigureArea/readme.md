@@ -8,7 +8,6 @@ ans - число искомая площадь (2 знака после запя
 ### P.S вы можете запустить с консоли a.out указав нужный вам файл
 ```cpp
 #include <iostream>
-#include <vector>
 #include <fstream>
 
 using namespace std;
