@@ -10,7 +10,6 @@ ans - число искомая площадь (2 знака после запя
 #include <iostream>
 #include <vector>
 #include <fstream>
-#include <algorithm>
 
 using namespace std;
 
