@@ -45,5 +45,5 @@ void alg_Floyd(vector<vector<int> >& d, int n){
 Тоесть сколько нужно рукопожатий для того что бы добраться до конкретных людей
 у нас есть матрица смежности и мы спокойно можем постоить график 
 
-
+![Image alt](https://github.com/Lukashevskiy/cppTasks/raw/master/sixDegreesOfSeparation/gpraph.png
 
