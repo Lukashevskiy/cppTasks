@@ -46,12 +46,12 @@ void alg_Floyd(vector<vector<int> >& d, int n){
 у нас есть матрица смежности и мы спокойно можем постоить график 
 
 ![Image alt](https://github.com/Lukashevskiy/cppTasks/raw/master/sixDegreesOfSeparation/graph.png)
-1- 176468,\n 
-2- 2716134, \n
-3- 3981852, \n
-4- 5861560, \n
-5- 2565170, \n
-6- 677214, \n
-7- 315464, \n
-8- 15620 \n
+1- 176468, <br />
+2- 2716134, <br />
+3- 3981852, <br />
+4- 5861560, <br />
+5- 2565170, <br />
+6- 677214, <br />
+7- 315464, <br />
+8- 15620 <br />
 
