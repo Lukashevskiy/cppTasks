@@ -19,11 +19,3 @@ ping -c 1000 github.com > stat.txt
 
 ### итоговый график
 ![Image alt](https://github.com/Lukashevskiy/cppTasks/raw/master/taskforNetwork/analyzePing/graph.png)
-1- 176468, 
-2- 2716134, 
-3- 3981852, 
-4- 5861560, 
-5- 2565170, 
-6- 677214, 
-7- 315464, 
-8- 15620 
