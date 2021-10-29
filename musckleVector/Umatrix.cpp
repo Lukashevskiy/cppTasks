@@ -58,7 +58,7 @@ Umatrix::Umatrix(Umatrix &copyedMatrix) {
     this->matrix = copyedMatrix.matrix;
 }
 
-std::ostream &operator<<(std::ostream &out, Umatrix &matrix) {
+std::ostream &operator<<(std::ostream &out, const Umatrix &matrix) {
     out << "size matrix = (" << matrix.n << ", " << matrix.m << ")\n";
     for(unsigned int i = 0; i < matrix.n; i++){
         out << "( ";
@@ -80,7 +80,7 @@ Umatrix &Umatrix::operator=(const Umatrix &other) {
     return *this;
 }
 
-Umatrix& Umatrix::transpose(){
+Umatrix &Umatrix::transpose(){
     Umatrix ans(this->m, this->n);
     for(int i = 0; i < this->n; i++){
         for(int j = 0; j < this->m; j++){
@@ -130,12 +130,6 @@ Umatrix Umatrix::operation_det_multiply(int i_e, double k) {
     return *this;
 }
 
-double Umatrix::get_element_matrix(unsigned int i, unsigned int j) {
-    if((i < 0 || j < 0) || (i >= this->n || j >= this->m)){
-        throw std::exception();
-    }
-    return this->matrix[i][j];
-}
 
 unsigned int Umatrix::get_size_m() const {
     return this->m;
@@ -235,16 +229,22 @@ Umatrix &Umatrix::operator-(Umatrix &umatrix) {
     return this->operator-=(umatrix);
 }
 
+std::vector<double> Umatrix::operator[](unsigned long index) const{
+    std::vector<double> ans = this->matrix[index];
+    return ans;
+}
+
+
 double det(Umatrix umatrix){
     if(umatrix.get_size_n() == 1){
-        return umatrix.get_element_matrix(0,0);
+        return umatrix[0][0];
     }else if(umatrix.get_size_n() == 2){
-        return (umatrix.get_element_matrix(0,0) * umatrix.get_element_matrix(1,1)) - (umatrix.get_element_matrix(0,1) * umatrix.get_element_matrix(1,0));
+        return (umatrix[0][0] * umatrix[1][1]) - (umatrix[0][1] * umatrix[1][0]);
     }else{
         std::vector <double> minors;
         minors.resize(umatrix.get_size_n());
         for(int k = 0; k < umatrix.get_size_n(); k++){
-            minors[k] = det(umatrix.algebraic_adjunct(0,k)) * umatrix.get_element_matrix(0,k);
+            minors[k] = det(umatrix.algebraic_adjunct(0,k)) * umatrix[0][k];
         }
         double ans = 0;
         for(int k = 0; k < umatrix.get_size_n(); k++){

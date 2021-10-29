@@ -6,6 +6,7 @@
 #define MUSCKLEVECTOR_UMATRIX_H
 #include <vector>
 #include <istream>
+#include <iostream>
 
 class Umatrix {
     std::vector < std::vector<double> > matrix; //с вектора будет проще мигрировать на свой вектор
@@ -26,9 +27,10 @@ public:
     Umatrix &operator+(Umatrix& umatrix);
     Umatrix &operator-=(Umatrix &umatrix);
     Umatrix &operator-(Umatrix &umatrix);
+    std::vector<double> operator[](unsigned long index) const;
+
     Umatrix& transpose(); //транспонирование матрицы
 
-    double get_element_matrix(unsigned int i, unsigned int j);
     [[nodiscard]] unsigned int get_size_n() const;
     [[nodiscard]] unsigned int get_size_m() const;
     Umatrix minor(unsigned int  i_e, unsigned  int j_e); //минор по строке и столбцу(определитель)
@@ -36,7 +38,7 @@ public:
     Umatrix matrix_of_algebraic_adjunct();
     Umatrix operation_det_multiply(int i_e, double k); //операция умножение определенной строки (определитель)
     void invertible(double &determinant, Umatrix &umatrix);
-    friend std::ostream &operator<<(std::ostream &out, Umatrix &matrix);
+    friend std::ostream &operator<<(std::ostream &out, const Umatrix &matrix);
 
 };
 double det(Umatrix umatrix);
