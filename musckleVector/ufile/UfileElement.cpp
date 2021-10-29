@@ -9,7 +9,7 @@ UfileElement::UfileElement(const std::string& string, char delimeter) {
     this->elemets = getEl(string, delimeter);
 }
 
-UfileElement::UfileElement(UfileElement &ufileElement) {
+UfileElement::UfileElement(const UfileElement &ufileElement) {
     this->elemets = ufileElement.elemets;
 }
 
@@ -27,20 +27,28 @@ bool UfileElement::operator==(UfileElement &ufileElement) {
     return true;
 }
 
-std::string UfileElement::getSUbElement(int index) {
+std::string &UfileElement::operator[](unsigned long index) const {
     if(index >= this->elemets.size()){
-        throw std::exception();
+        throw std::out_of_range(std::to_string(index)+ "out of length = " + std::to_string(this->elemets.size()));
     }
-    return this->elemets[index];
+    std::string ans = this->elemets[index];
+    return ans;
 }
 
 std::ostream &operator<<(std::ostream &out, const UfileElement &ufileElement){
-    for(auto &item: ufileElement.elemets){
+    for(const std::string& item: ufileElement.elemets){
         out << item << " ";
     }
     return out;
 }
 
+UfileElement::UfileElement() {
+    elemets.emplace_back("1");
+}
+
+unsigned long UfileElement::getSize() const{
+    return this->elemets.size();
+}
 
 std::vector<std::string> getEl(const std::string &string, char delimiter){
     std::vector<std::string> ans;
@@ -53,5 +61,6 @@ std::vector<std::string> getEl(const std::string &string, char delimiter){
             buff += symbol;
         }
     }
+    ans.push_back(buff);
     return ans;
 }

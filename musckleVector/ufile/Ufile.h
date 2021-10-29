@@ -17,14 +17,14 @@ private:
 public:
     Ufile();
     Ufile(const Ufile &ufile);
-    explicit Ufile(const std::string& new_filename);
+    explicit Ufile(std::string new_filename);
     Ufile(std::string new_filename, std::vector<UfileElement> &new_data);
-
+    void append_element(const UfileElement& ufileElement);
     Ufile &operator+=(Ufile &ufile);
     Ufile &operator+(Ufile &ufile);
     Ufile &operator-=(Ufile &ufile);
     Ufile &operator-(Ufile &ufile);
-
+    UfileElement &operator[](unsigned long index) const;
     void read_file(char delimiter);
     void write_file(bool isContinue);
     friend std::ostream& operator<<(std::ostream &out, const Ufile &ufile);
