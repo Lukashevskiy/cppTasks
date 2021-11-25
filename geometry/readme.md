@@ -1,4 +1,4 @@
-```
+```c++
 //базовый класс
 class Figure{
 protected:
