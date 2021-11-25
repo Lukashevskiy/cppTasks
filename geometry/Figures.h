@@ -15,7 +15,7 @@ public:
     virtual double area() = 0;
     virtual double perimeter() = 0;
     friend std::ostream &operator<<(std::ostream &out, Figure &figure) {
-        out << figure.name << " \n\t area -" << figure.area() << "\n\t perimeter - " << figure.perimeter();
+        out << figure.name << " \n\t area -" << figure.area() << "\n\t perimeter - " << figure.perimeter() << std::endl;
         return out;
     }
     std::string &get_name(){

@@ -55,10 +55,10 @@ int main() {
     figures.push_back(rectangle);
     figures.push_back(polygon);
     for(Figure *figure: figures){
-        //cout << *figure;
-        cout << figure->get_name() << endl;
-        cout << figure->area() << endl;
-        cout << figure->perimeter();
+        cout << *figure;
+        //cout << figure->get_name() << endl;
+       // cout << figure->area() << endl;
+       // cout << figure->perimeter();
     }
     return 0;
 }
