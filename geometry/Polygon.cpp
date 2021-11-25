@@ -23,8 +23,8 @@ double &Point2d::get_y() {
 }
 
 Point2d::Point2d() {
-    this->y = 0;
-    this->x = 0;
+    this->y = 0.0;
+    this->x = 0.0;
 }
 
 Polygon::Polygon(std::vector<Point2d> &new_points) {
