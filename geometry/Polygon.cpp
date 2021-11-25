@@ -2,7 +2,7 @@
 // Created by dmitriy on 19.11.2021.
 //
 #include "Figures.h"
-
+#include <cmath>
 Point2d::Point2d(double new_x, double new_y) {
     this->x = new_x;
     this->y = new_y;
@@ -34,7 +34,6 @@ Polygon::Polygon(std::vector<Point2d> &new_points) {
         this->points[i] = new_points[i];
     }
 }
-
 Point2d Polygon::operator[](unsigned long index) const{
     if(index < 0 && index >= this->points.size()){
         throw std::exception();
@@ -51,3 +50,17 @@ double Polygon::area() {
     return a-b;
 }
 
+double Polygon::perimeter() {
+    double ans = 0;
+    for(int i = 0; i < this->points.size()-1; i++){
+        ans += sqrt((points[i+1].get_x()-points[i].get_x())*
+                (points[i+1].get_x()-points[i].get_x())+
+                (points[i+1].get_y()-points[i].get_y())*
+                (points[i+1].get_y()-points[i].get_y()));
+    }
+    ans += sqrt((points[0].get_x()-points[this->points.size()-1].get_x())*
+                (points[0].get_x()-points[this->points.size()-1].get_x())+
+                (points[0].get_y()-points[this->points.size()-1].get_y())*
+                (points[0].get_y()-points[this->points.size()-1].get_y()));
+    return ans;
+}

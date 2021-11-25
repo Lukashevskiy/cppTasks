@@ -13,9 +13,13 @@ protected:
     std::string name = "Unnamed";
 public:
     virtual double area() = 0;
+    virtual double perimeter() = 0;
     friend std::ostream &operator<<(std::ostream &out, Figure &figure) {
-        out << figure.name << " " << figure.area() << std::endl;
+        out << figure.name << " \n\t area -" << figure.area() << "\n\t perimeter - " << figure.perimeter();
         return out;
+    }
+    std::string &get_name(){
+        return this->name;
     }
 };
 
@@ -25,8 +29,8 @@ protected:
     double rr;
 public:
     explicit Circle(double new_r, double new_rr=0);
-
     double area();
+    double perimeter();
 };
 
 
@@ -37,6 +41,7 @@ protected:
 public:
     explicit Square(double new_x, double new_y=0);
     double area();
+    double perimeter();
 };
 
 
@@ -46,6 +51,7 @@ private:
 public:
     Triangle(double new_a, double new_b, double new_c);
     double area();
+    double perimeter();
 };
 
 class Point2d{
@@ -66,5 +72,6 @@ public:
     explicit Polygon(std::vector<Point2d> &points);
     Point2d operator[](unsigned long index) const;
     double area();
+    double perimeter();
 };
 #endif //UNTITLED3_FIGURES_H

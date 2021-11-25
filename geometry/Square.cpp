@@ -21,3 +21,10 @@ double Square::area() {
         return x*y;
     }
 }
+double Square::perimeter() {
+    if(this->y == 0){
+        return 4*this->x;
+    }else{
+        return 2*this->x+2*this->y;
+    }
+}

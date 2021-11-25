@@ -45,10 +45,7 @@ int main() {
     Square *square = new Square(10);
     Square *rectangle = new Square(20,10);
 
-    Point2d p1(1,2);
-    Point2d p2(2,1);
-    Point2d p3(10,2);
-    vector<Point2d> coords = {p1, p2, p3};
+    vector<Point2d> coords = {Point2d(1,2), Point2d(2,1), Point2d(10,2)};
     Polygon *polygon = new Polygon(coords);
 
     figures.push_back(triangle);
@@ -58,7 +55,10 @@ int main() {
     figures.push_back(rectangle);
     figures.push_back(polygon);
     for(Figure *figure: figures){
-        cout << *figure;
+        //cout << *figure;
+        cout << figure->get_name() << endl;
+        cout << figure->area() << endl;
+        cout << figure->perimeter();
     }
     return 0;
 }
