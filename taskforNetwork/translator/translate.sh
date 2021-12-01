@@ -1,7 +1,7 @@
 #!/bin/bash
 
-API_KEY="9bf007a897f54e4a94203f8aa88cd2b1"
-REGION="westeurope"
+API_KEY="c544943ca4204a04b955eb69025a51d3"
+REGION="germanywestcentral"
 
 inputfile=""
 outputfile="./output.txt"
