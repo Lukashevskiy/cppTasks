@@ -1,0 +1,13 @@
+/app/extra/clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/dmitriy/Documents/cppTasks/shashki_predict
+-- Configuring done
+CMake Error at CMakeLists.txt:6 (add_executable):
+  Cannot find source file:
+
+    src/resourses/King.cpp
+
+
+CMake Error at CMakeLists.txt:6 (add_executable):
+  No SOURCES given to target: shahki_predict
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

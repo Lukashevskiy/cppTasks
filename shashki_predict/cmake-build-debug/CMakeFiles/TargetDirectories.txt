@@ -1,0 +1,3 @@
+/home/dmitriy/Documents/cppTasks/shashki_predict/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/dmitriy/Documents/cppTasks/shashki_predict/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/dmitriy/Documents/cppTasks/shashki_predict/cmake-build-debug/CMakeFiles/shahki_predict.dir

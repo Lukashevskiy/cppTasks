@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="shahki_predict"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/dmitriy/Documents/cppTasks/shashki_predict/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/dmitriy/Documents/cppTasks/shashki_predict/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/dmitriy/Documents/cppTasks/shashki_predict/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/dmitriy/Documents/cppTasks/shashki_predict/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/dmitriy/Documents/cppTasks/shashki_predict/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/dmitriy/Documents/cppTasks/shashki_predict/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/dmitriy/Documents/cppTasks/shashki_predict/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/dmitriy/Documents/cppTasks/shashki_predict/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/dmitriy/Documents/cppTasks/shashki_predict/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/dmitriy/Documents/cppTasks/shashki_predict/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/dmitriy/Documents/cppTasks/shashki_predict/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/dmitriy/Documents/cppTasks/shashki_predict/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/dmitriy/Documents/cppTasks/shashki_predict/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/dmitriy/Documents/cppTasks/shashki_predict/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/dmitriy/Documents/cppTasks/shashki_predict/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shahki_predict">
+				<Option output="/home/dmitriy/Documents/cppTasks/shashki_predict/cmake-build-debug/shahki_predict" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dmitriy/Documents/cppTasks/shashki_predict/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/dmitriy/Documents/cppTasks/shashki_predict/cmake-build-debug/Makefile&quot;  VERBOSE=1 shahki_predict"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/dmitriy/Documents/cppTasks/shashki_predict/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/dmitriy/Documents/cppTasks/shashki_predict/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/dmitriy/Documents/cppTasks/shashki_predict/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shahki_predict/fast">
+				<Option output="/home/dmitriy/Documents/cppTasks/shashki_predict/cmake-build-debug/shahki_predict" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dmitriy/Documents/cppTasks/shashki_predict/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/dmitriy/Documents/cppTasks/shashki_predict/cmake-build-debug/Makefile&quot;  VERBOSE=1 shahki_predict/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/dmitriy/Documents/cppTasks/shashki_predict/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/dmitriy/Documents/cppTasks/shashki_predict/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/dmitriy/Documents/cppTasks/shashki_predict/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/dmitriy/Documents/cppTasks/shashki_predict/src/headers/Cell.h">
+			<Option target="shahki_predict"/>
+		</Unit>
+		<Unit filename="/home/dmitriy/Documents/cppTasks/shashki_predict/src/headers/Field.h">
+			<Option target="shahki_predict"/>
+		</Unit>
+		<Unit filename="/home/dmitriy/Documents/cppTasks/shashki_predict/src/headers/Figures.h">
+			<Option target="shahki_predict"/>
+		</Unit>
+		<Unit filename="/home/dmitriy/Documents/cppTasks/shashki_predict/src/headers/Player.h">
+			<Option target="shahki_predict"/>
+		</Unit>
+		<Unit filename="/home/dmitriy/Documents/cppTasks/shashki_predict/src/resourses/Bishop.cpp">
+			<Option target="shahki_predict"/>
+		</Unit>
+		<Unit filename="/home/dmitriy/Documents/cppTasks/shashki_predict/src/resourses/Cell.cpp">
+			<Option target="shahki_predict"/>
+		</Unit>
+		<Unit filename="/home/dmitriy/Documents/cppTasks/shashki_predict/src/resourses/Field.cpp">
+			<Option target="shahki_predict"/>
+		</Unit>
+		<Unit filename="/home/dmitriy/Documents/cppTasks/shashki_predict/src/resourses/Figure.cpp">
+			<Option target="shahki_predict"/>
+		</Unit>
+		<Unit filename="/home/dmitriy/Documents/cppTasks/shashki_predict/src/resourses/King.cpp">
+			<Option target="shahki_predict"/>
+		</Unit>
+		<Unit filename="/home/dmitriy/Documents/cppTasks/shashki_predict/src/resourses/Knight.cpp">
+			<Option target="shahki_predict"/>
+		</Unit>
+		<Unit filename="/home/dmitriy/Documents/cppTasks/shashki_predict/src/resourses/Pawn.cpp">
+			<Option target="shahki_predict"/>
+		</Unit>
+		<Unit filename="/home/dmitriy/Documents/cppTasks/shashki_predict/src/resourses/Player.cpp">
+			<Option target="shahki_predict"/>
+		</Unit>
+		<Unit filename="/home/dmitriy/Documents/cppTasks/shashki_predict/src/resourses/Queen.cpp">
+			<Option target="shahki_predict"/>
+		</Unit>
+		<Unit filename="/home/dmitriy/Documents/cppTasks/shashki_predict/src/resourses/Rook.cpp">
+			<Option target="shahki_predict"/>
+		</Unit>
+		<Unit filename="/home/dmitriy/Documents/cppTasks/shashki_predict/src/resourses/main.cpp">
+			<Option target="shahki_predict"/>
+		</Unit>
+		<Unit filename="/home/dmitriy/Documents/cppTasks/shashki_predict/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
