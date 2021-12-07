@@ -16,7 +16,7 @@
 ### Картинка с прямоугольничками
 ![](./face_img)\
 ### Лицо 1
-<img src="./819b866a-a604-49ec-bd03-28f714522aa6-fragment.png" alt="drawing" width="150"/>
+<img src="./819b866a-a604-49ec-bd03-28f714522aa6-fragment.png" alt="drawing" width="150"/> \
 ### Лицо 2
 <img src="./a6d8830f-d734-4ec7-8520-841910ef8b29-fragment.png" alt="drawing" width="150"/>
 
