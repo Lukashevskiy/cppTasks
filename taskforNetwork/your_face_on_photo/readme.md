@@ -12,11 +12,11 @@
 в файле facereqtangle.py описан скрипт.
 ## пример
 ### исходная картинка
-![title](./img.jpg) \
+![](./img.jpg) \
 ### Картинка с прямоугольничками
-![title](./face_img.png)\
+![](./face_img)\
 ### Лицо 1
-![title](./819b866a-a604-49ec-bd03-28f714522aa6-fragment.png)
+![title](./819b866a-a604-49ec-bd03-28f714522aa6-fragment.png =100x100)
 ### Лицо 2
-![title](./a6d8830f-d734-4ec7-8520-841910ef8b29-fragment.png)
+![title](./a6d8830f-d734-4ec7-8520-841910ef8b29-fragment.png =100x100)
 
