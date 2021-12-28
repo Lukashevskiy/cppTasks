@@ -18,4 +18,4 @@
 ### Subprocess
   Штука, что бы запускать всякие внешние штуки из питон скрипта.
 # Ну собственно сама гифка.
-<img src="video.gif" width="200" height="350" />
+<img src="video.gif" width="250" height="350" />
