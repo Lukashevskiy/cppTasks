@@ -7,6 +7,7 @@
 1) веб сервис, для ввода текста и впоследствии манипуляции с ним
 # Пример
 текст их файла text.txt \
+<img src="example2.png" width="600" height="100" /> \
 вводим в консоли `python3 ./main.py text.txt` \
 зайти открыть файл out.html \
 <img src="example.png" width="900" height="400" />
