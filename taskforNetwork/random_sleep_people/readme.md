@@ -4,4 +4,4 @@
 Все просто, заходишь вот сюда ` ` и улыбаешься.
 
 ### Пример того, как работает.
-<img src="./example.png" alt="drawing" width="550"/>
+<img src="./example.png" alt="drawing" width="1000"/>
