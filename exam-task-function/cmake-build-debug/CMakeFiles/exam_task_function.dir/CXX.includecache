@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dmitriy/Documents/cppTasks/exam-task-function/Exponential.cpp
+Exponential.h
+/home/dmitriy/Documents/cppTasks/exam-task-function/Exponential.h
+Parabola.h
+/home/dmitriy/Documents/cppTasks/exam-task-function/Parabola.h
+cmath
+-
+
+/home/dmitriy/Documents/cppTasks/exam-task-function/Exponential.h
+Function.h
+/home/dmitriy/Documents/cppTasks/exam-task-function/Function.h
+
+/home/dmitriy/Documents/cppTasks/exam-task-function/Function.h
+utility
+-
+string
+-
+Point2d.h
+/home/dmitriy/Documents/cppTasks/exam-task-function/Point2d.h
+ostream
+-
+
+/home/dmitriy/Documents/cppTasks/exam-task-function/Parabola.h
+Function.h
+/home/dmitriy/Documents/cppTasks/exam-task-function/Function.h
+
+/home/dmitriy/Documents/cppTasks/exam-task-function/Point2d.h
+

@@ -1,0 +1,3 @@
+/home/dmitriy/Documents/cppTasks/exam-task-function/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/dmitriy/Documents/cppTasks/exam-task-function/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/dmitriy/Documents/cppTasks/exam-task-function/cmake-build-debug/CMakeFiles/exam_task_function.dir
