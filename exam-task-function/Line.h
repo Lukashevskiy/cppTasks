@@ -9,6 +9,7 @@
 class Line : public Parabola{
 public:
     explicit Line(double new_k);
+    std::string get_expression() override;
 };
 
 

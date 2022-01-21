@@ -15,6 +15,7 @@ CMakeFiles/exam_task_function.dir/Hyperbola.cpp.o
  /home/dmitriy/Documents/cppTasks/exam-task-function/Function.h
  /home/dmitriy/Documents/cppTasks/exam-task-function/Hyperbola.cpp
  /home/dmitriy/Documents/cppTasks/exam-task-function/Hyperbola.h
+ /home/dmitriy/Documents/cppTasks/exam-task-function/Log.h
  /home/dmitriy/Documents/cppTasks/exam-task-function/Parabola.h
  /home/dmitriy/Documents/cppTasks/exam-task-function/Point2d.h
 CMakeFiles/exam_task_function.dir/Line.cpp.o
@@ -22,6 +23,11 @@ CMakeFiles/exam_task_function.dir/Line.cpp.o
  /home/dmitriy/Documents/cppTasks/exam-task-function/Line.cpp
  /home/dmitriy/Documents/cppTasks/exam-task-function/Line.h
  /home/dmitriy/Documents/cppTasks/exam-task-function/Parabola.h
+ /home/dmitriy/Documents/cppTasks/exam-task-function/Point2d.h
+CMakeFiles/exam_task_function.dir/Log.cpp.o
+ /home/dmitriy/Documents/cppTasks/exam-task-function/Function.h
+ /home/dmitriy/Documents/cppTasks/exam-task-function/Log.cpp
+ /home/dmitriy/Documents/cppTasks/exam-task-function/Log.h
  /home/dmitriy/Documents/cppTasks/exam-task-function/Point2d.h
 CMakeFiles/exam_task_function.dir/Parabola.cpp.o
  /home/dmitriy/Documents/cppTasks/exam-task-function/Function.h

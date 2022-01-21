@@ -8,6 +8,7 @@
 #include <cmath>
 // k * e^(x)
 Exponential::Exponential(double new_k, int new_n): Function( "Exponential", new_k, new_n ){}
+Exponential::Exponential(double new_k) : Function("Exponential", new_k, 1){}
 
 double Exponential::value(double x) {
     return k * pow(M_E, x);
@@ -32,5 +33,17 @@ Point2d Exponential::max_of_func(double start, double stop) {
 }
 
 Point2d Exponential::min_of_func(double start, double stop) {
-    return Point2d(0, 0);
+    double start_v = this->value(start),
+            stop_v = this->value(stop);
+    if(start_v < stop_v){
+        return Point2d(start, start_v);
+    }else {
+        return Point2d(stop, stop_v);
+    }
 }
+
+std::string Exponential::get_expression() {
+    return std::to_string(k)+"*e^x";
+}
+
+

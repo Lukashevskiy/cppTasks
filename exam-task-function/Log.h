@@ -13,6 +13,7 @@ public:
     Function * integral() override;
     Function * differential() override;
 
+    std::string get_expression() override;
     Point2d max_of_func(double start, double stop) override;
     Point2d min_of_func(double start, double stop) override;
     Log(double new_k);

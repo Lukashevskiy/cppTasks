@@ -6,6 +6,7 @@
 #include "Line.h"
 // k * x^2
 Parabola::Parabola(double new_k, int new_n): Function( "Parabola", new_k, new_n){}
+Parabola::Parabola(double new_k): Function("Exponential", new_k, 1){}
 
 double Parabola::value(double x) {
     return k * pow(x, n);
@@ -62,3 +63,9 @@ Point2d Parabola::min_of_func(double start, double stop) {
     }
     //return Point2d(0, 0);
 }
+
+std::string Parabola::get_expression() {
+    return std::to_string(k)+"*"+"x^2";
+}
+
+

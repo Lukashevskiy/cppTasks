@@ -5,8 +5,9 @@
 #include "Hyperbola.h"
 
 #include "Parabola.h"
+#include "Log.h"
 
-Hyperbola::Hyperbola(double new_k, int new_n): Function( "Hyperbola", new_k, new_n){}
+Hyperbola::Hyperbola(double new_k): Function( "Hyperbola", new_k, 1){}
 
 double Hyperbola::value(double x) {
     if(x == 0){
@@ -21,7 +22,7 @@ Function *Hyperbola::integral() {
 }
 
 Function *Hyperbola::differential() {
-    return nullptr;//new Hyperbola();
+    return new Log(k);//new Hyperbola();
 }
 
 Point2d Hyperbola::max_of_func(double start, double stop) {
@@ -84,5 +85,9 @@ Point2d Hyperbola::min_of_func(double start, double stop) {
         throw std::empty("no one");
     }
 
+}
+
+std::string Hyperbola::get_expression() {
+    return std::to_string(k)+"/x";
 }
 
