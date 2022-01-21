@@ -201,6 +201,30 @@ Hyperbola.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exam_task_function.dir/build.make CMakeFiles/exam_task_function.dir/Hyperbola.cpp.s
 .PHONY : Hyperbola.cpp.s
 
+Line.o: Line.cpp.o
+.PHONY : Line.o
+
+# target to build an object file
+Line.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exam_task_function.dir/build.make CMakeFiles/exam_task_function.dir/Line.cpp.o
+.PHONY : Line.cpp.o
+
+Line.i: Line.cpp.i
+.PHONY : Line.i
+
+# target to preprocess a source file
+Line.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exam_task_function.dir/build.make CMakeFiles/exam_task_function.dir/Line.cpp.i
+.PHONY : Line.cpp.i
+
+Line.s: Line.cpp.s
+.PHONY : Line.s
+
+# target to generate assembly for a file
+Line.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exam_task_function.dir/build.make CMakeFiles/exam_task_function.dir/Line.cpp.s
+.PHONY : Line.cpp.s
+
 Parabola.o: Parabola.cpp.o
 .PHONY : Parabola.o
 
@@ -315,6 +339,9 @@ help:
 	@echo "... Hyperbola.o"
 	@echo "... Hyperbola.i"
 	@echo "... Hyperbola.s"
+	@echo "... Line.o"
+	@echo "... Line.i"
+	@echo "... Line.s"
 	@echo "... Parabola.o"
 	@echo "... Parabola.i"
 	@echo "... Parabola.s"

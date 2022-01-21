@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/dmitriy/Documents/cppTasks/exam-task-function/Exponential.cpp" "/home/dmitriy/Documents/cppTasks/exam-task-function/cmake-build-debug/CMakeFiles/exam_task_function.dir/Exponential.cpp.o"
   "/home/dmitriy/Documents/cppTasks/exam-task-function/Function.cpp" "/home/dmitriy/Documents/cppTasks/exam-task-function/cmake-build-debug/CMakeFiles/exam_task_function.dir/Function.cpp.o"
   "/home/dmitriy/Documents/cppTasks/exam-task-function/Hyperbola.cpp" "/home/dmitriy/Documents/cppTasks/exam-task-function/cmake-build-debug/CMakeFiles/exam_task_function.dir/Hyperbola.cpp.o"
+  "/home/dmitriy/Documents/cppTasks/exam-task-function/Line.cpp" "/home/dmitriy/Documents/cppTasks/exam-task-function/cmake-build-debug/CMakeFiles/exam_task_function.dir/Line.cpp.o"
   "/home/dmitriy/Documents/cppTasks/exam-task-function/Parabola.cpp" "/home/dmitriy/Documents/cppTasks/exam-task-function/cmake-build-debug/CMakeFiles/exam_task_function.dir/Parabola.cpp.o"
   "/home/dmitriy/Documents/cppTasks/exam-task-function/Point2d.cpp" "/home/dmitriy/Documents/cppTasks/exam-task-function/cmake-build-debug/CMakeFiles/exam_task_function.dir/Point2d.cpp.o"
   "/home/dmitriy/Documents/cppTasks/exam-task-function/Polinom.cpp" "/home/dmitriy/Documents/cppTasks/exam-task-function/cmake-build-debug/CMakeFiles/exam_task_function.dir/Polinom.cpp.o"

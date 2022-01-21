@@ -17,8 +17,8 @@ public:
     virtual Function * integral() override;
     virtual Function * differential() override;
 
-    virtual Point2d max_of_func() override;
-    virtual Point2d min_of_func() override;
+    virtual Point2d max_of_func(double start, double stop) override;
+    virtual Point2d min_of_func(double start, double stop) override;
 };
 
 

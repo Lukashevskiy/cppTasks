@@ -6,9 +6,8 @@
 
 #include <utility>
 
-Function::Function(std::string new_type, double new_k, int new_n) : type{ std::move( new_type ) },
-                                                                                    k{ new_k },
-                                                                                    n{ new_n } { }
+Function::Function(std::string new_type, double new_k, int new_n) :type{ std::move(new_type) }, k{ new_k }, n{ new_n } {}
+
 
 double pow(double number, int n){
     double ans = 1;

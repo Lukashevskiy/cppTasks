@@ -21,16 +21,68 @@ Function *Hyperbola::integral() {
 }
 
 Function *Hyperbola::differential() {
-    return nullptr//new Hyperbola();
+    return nullptr;//new Hyperbola();
 }
 
-Point2d Hyperbola::max_of_func() {
+Point2d Hyperbola::max_of_func(double start, double stop) {
     //Function *d = this->differential();
+    double start_v, stop_v;
+    bool is_start = false, is_stop = false;
+    try{
+        start_v = this->value(start);
+    } catch( std::invalid_argument){
+        is_start = true;
+    };
 
-    return Point2d(0,0);
+    try{
+        stop_v = this->value(stop);
+    } catch( std::invalid_argument){
+        is_stop = true;
+    };
+
+    if(is_start && is_stop){
+        if(start_v > stop_v){
+            return Point2d(start, start_v);
+        }else{
+            return Point2d(stop, stop_v);
+        }
+    }else if(is_start){
+        return Point2d(start, start_v);
+    }else if(is_stop){
+        return Point2d(stop, stop_v);
+    }else{
+        throw std::empty("no one");
+    }
 }
 
-Point2d Hyperbola::min_of_func() {
-    return Point2d(0,0);
+Point2d Hyperbola::min_of_func(double start, double stop) {
+    double start_v, stop_v;
+    bool is_start = false, is_stop = false;
+    try{
+        start_v = this->value(start);
+    } catch( std::invalid_argument){
+        is_start = true;
+    };
+
+    try{
+        stop_v = this->value(stop);
+    } catch( std::invalid_argument){
+        is_stop = true;
+    };
+
+    if(is_start && is_stop){
+        if(start_v < stop_v){
+            return Point2d(start, start_v);
+        }else{
+            return Point2d(stop, stop_v);
+        }
+    }else if(is_start){
+        return Point2d(start, start_v);
+    }else if(is_stop){
+        return Point2d(stop, stop_v);
+    }else{
+        throw std::empty("no one");
+    }
+
 }
 

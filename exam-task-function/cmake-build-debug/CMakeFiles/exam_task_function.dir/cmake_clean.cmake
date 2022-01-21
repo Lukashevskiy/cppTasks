@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/exam_task_function.dir/Exponential.cpp.o"
   "CMakeFiles/exam_task_function.dir/Function.cpp.o"
   "CMakeFiles/exam_task_function.dir/Hyperbola.cpp.o"
+  "CMakeFiles/exam_task_function.dir/Line.cpp.o"
   "CMakeFiles/exam_task_function.dir/Parabola.cpp.o"
   "CMakeFiles/exam_task_function.dir/Point2d.cpp.o"
   "CMakeFiles/exam_task_function.dir/Polinom.cpp.o"

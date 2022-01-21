@@ -14,18 +14,17 @@ double Exponential::value(double x) {
 }
 
 Function *Exponential::integral(){
-    //Function *e1 = new Exponential(k, 0, n), *b1 = new Parabola(n-1, 0, 1), *b2 = new Parabola(b, 0, 1);
-    return nullptr;//new Hard_function(std::vector<Function*>{new Hard_function(std::vector<Function*>{e1,b1}, 1, 0, 1),b2}, 1, 0, 1);
+    return new Exponential(k, 1);
 }
 
 Function *Exponential::differential() {
     return new Exponential(k, 1);
 }
 
-Point2d Exponential::max_of_func() {
+Point2d Exponential::max_of_func(double start, double stop) {
     return Point2d(0, 0);
 }
 
-Point2d Exponential::min_of_func() {
+Point2d Exponential::min_of_func(double start, double stop) {
     return Point2d(0, 0);
 }

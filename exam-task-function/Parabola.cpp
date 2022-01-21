@@ -3,8 +3,8 @@
 //
 
 #include "Parabola.h"
-
-// k * x^n
+#include "Line.h"
+// k * x^2
 Parabola::Parabola(double new_k, int new_n): Function( "Parabola", new_k, new_n){}
 
 double Parabola::value(double x) {
@@ -16,14 +16,49 @@ Function *Parabola::integral() {
 }
 
 Function *Parabola::differential() {
-    return new Parabola(k+n, n-1);
+    return new Line(2*k);
 }
 
 Point2d Parabola::max_of_func(double start, double stop) {
     Function *d = this->differential();
-    return Point2d(0, 0);
+    double start_v, stop_v, diff_v;
+    start_v = this->value(start);
+    stop_v = this->value(stop_v);
+    diff_v = d->value(0);
+    if(start_v > stop_v){
+        if(diff_v > start_v){
+            return Point2d(0, diff_v);
+        }else{
+            return Point2d(start, start_v);
+        }
+    }else{
+        if(diff_v > stop_v){
+            return Point2d(0, diff_v);
+        }else{
+            return Point2d(stop, stop_v);
+        }
+    }
+    //return Point2d(0, 0);
 }
 
 Point2d Parabola::min_of_func(double start, double stop) {
-    return Point2d(0, 0);
+    Function *d = this->differential();
+    double start_v, stop_v, diff_v;
+    start_v = this->value(start);
+    stop_v = this->value(stop_v);
+    diff_v = d->value(0);
+    if(start_v > stop_v){
+        if(diff_v < start_v){
+            return Point2d(0, diff_v);
+        }else{
+            return Point2d(start, start_v);
+        }
+    }else{
+        if(diff_v < stop_v){
+            return Point2d(0, diff_v);
+        }else{
+            return Point2d(stop, stop_v);
+        }
+    }
+    //return Point2d(0, 0);
 }
