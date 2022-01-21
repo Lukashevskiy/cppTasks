@@ -11,6 +11,7 @@
 class Hyperbola : public Function{
 
 public:
+    Hyperbola(double  new_k, double new_n);
     Hyperbola(double new_k);
 
     virtual double value(double x) override;

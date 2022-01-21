@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/dmitriy/Documents/cppTasks/exam-task-function/Exponential.cpp" "/home/dmitriy/Documents/cppTasks/exam-task-function/cmake-build-debug/CMakeFiles/exam_task_function.dir/Exponential.cpp.o"
   "/home/dmitriy/Documents/cppTasks/exam-task-function/Function.cpp" "/home/dmitriy/Documents/cppTasks/exam-task-function/cmake-build-debug/CMakeFiles/exam_task_function.dir/Function.cpp.o"
+  "/home/dmitriy/Documents/cppTasks/exam-task-function/Hard_function.cpp" "/home/dmitriy/Documents/cppTasks/exam-task-function/cmake-build-debug/CMakeFiles/exam_task_function.dir/Hard_function.cpp.o"
   "/home/dmitriy/Documents/cppTasks/exam-task-function/Hyperbola.cpp" "/home/dmitriy/Documents/cppTasks/exam-task-function/cmake-build-debug/CMakeFiles/exam_task_function.dir/Hyperbola.cpp.o"
   "/home/dmitriy/Documents/cppTasks/exam-task-function/Line.cpp" "/home/dmitriy/Documents/cppTasks/exam-task-function/cmake-build-debug/CMakeFiles/exam_task_function.dir/Line.cpp.o"
   "/home/dmitriy/Documents/cppTasks/exam-task-function/Log.cpp" "/home/dmitriy/Documents/cppTasks/exam-task-function/cmake-build-debug/CMakeFiles/exam_task_function.dir/Log.cpp.o"

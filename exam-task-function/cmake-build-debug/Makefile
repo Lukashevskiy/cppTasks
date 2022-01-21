@@ -177,6 +177,30 @@ Function.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exam_task_function.dir/build.make CMakeFiles/exam_task_function.dir/Function.cpp.s
 .PHONY : Function.cpp.s
 
+Hard_function.o: Hard_function.cpp.o
+.PHONY : Hard_function.o
+
+# target to build an object file
+Hard_function.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exam_task_function.dir/build.make CMakeFiles/exam_task_function.dir/Hard_function.cpp.o
+.PHONY : Hard_function.cpp.o
+
+Hard_function.i: Hard_function.cpp.i
+.PHONY : Hard_function.i
+
+# target to preprocess a source file
+Hard_function.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exam_task_function.dir/build.make CMakeFiles/exam_task_function.dir/Hard_function.cpp.i
+.PHONY : Hard_function.cpp.i
+
+Hard_function.s: Hard_function.cpp.s
+.PHONY : Hard_function.s
+
+# target to generate assembly for a file
+Hard_function.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exam_task_function.dir/build.make CMakeFiles/exam_task_function.dir/Hard_function.cpp.s
+.PHONY : Hard_function.cpp.s
+
 Hyperbola.o: Hyperbola.cpp.o
 .PHONY : Hyperbola.o
 
@@ -360,6 +384,9 @@ help:
 	@echo "... Function.o"
 	@echo "... Function.i"
 	@echo "... Function.s"
+	@echo "... Hard_function.o"
+	@echo "... Hard_function.i"
+	@echo "... Hard_function.s"
 	@echo "... Hyperbola.o"
 	@echo "... Hyperbola.i"
 	@echo "... Hyperbola.s"

@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/dmitriy/Documents/cppTasks/exam-task-function/Exponential.h
-Function.h
-/home/dmitriy/Documents/cppTasks/exam-task-function/Function.h
-
 /home/dmitriy/Documents/cppTasks/exam-task-function/Function.h
 utility
 -
@@ -20,9 +16,21 @@ Point2d.h
 ostream
 -
 
+/home/dmitriy/Documents/cppTasks/exam-task-function/Hyperbola.cpp
+Hyperbola.h
+/home/dmitriy/Documents/cppTasks/exam-task-function/Hyperbola.h
+Parabola.h
+/home/dmitriy/Documents/cppTasks/exam-task-function/Parabola.h
+Log.h
+/home/dmitriy/Documents/cppTasks/exam-task-function/Log.h
+
 /home/dmitriy/Documents/cppTasks/exam-task-function/Hyperbola.h
 string
 -
+Function.h
+/home/dmitriy/Documents/cppTasks/exam-task-function/Function.h
+
+/home/dmitriy/Documents/cppTasks/exam-task-function/Log.h
 Function.h
 /home/dmitriy/Documents/cppTasks/exam-task-function/Function.h
 
@@ -31,24 +39,6 @@ Function.h
 /home/dmitriy/Documents/cppTasks/exam-task-function/Function.h
 
 /home/dmitriy/Documents/cppTasks/exam-task-function/Point2d.h
-
-/home/dmitriy/Documents/cppTasks/exam-task-function/main.cpp
-iostream
--
-Function.h
-/home/dmitriy/Documents/cppTasks/exam-task-function/Function.h
-vector
--
-string
--
 ostream
 -
-random
--
-Parabola.h
-/home/dmitriy/Documents/cppTasks/exam-task-function/Parabola.h
-Exponential.h
-/home/dmitriy/Documents/cppTasks/exam-task-function/Exponential.h
-Hyperbola.h
-/home/dmitriy/Documents/cppTasks/exam-task-function/Hyperbola.h
 

@@ -65,7 +65,12 @@ Point2d Parabola::min_of_func(double start, double stop) {
 }
 
 std::string Parabola::get_expression() {
-    return std::to_string(k)+"*"+"x^2";
+    std::string ans = "";
+    if(k>1){
+        ans+= std::to_string(k)+"*";
+    }
+    ans += "1/(x^2)";
+    return ans;
 }
 
 

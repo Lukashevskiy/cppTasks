@@ -9,5 +9,10 @@ Line::Line(double new_k): Parabola(new_k, 1){
 }
 
 std::string Line::get_expression() {
-    return std::to_string(k)+"x";
+    std::string ans = "";
+    if(k>1){
+        ans+= std::to_string(k)+"*";
+    }
+    ans += 'x';
+    return ans;
 }

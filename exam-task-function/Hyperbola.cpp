@@ -8,6 +8,7 @@
 #include "Log.h"
 
 Hyperbola::Hyperbola(double new_k): Function( "Hyperbola", new_k, 1){}
+Hyperbola::Hyperbola(double new_k, double new_n): Function( "Hyperbola", new_k, new_n){}
 
 double Hyperbola::value(double x) {
     if(x == 0){
@@ -18,27 +19,27 @@ double Hyperbola::value(double x) {
 }
 
 Function *Hyperbola::integral() {
-    return nullptr;
+    return new Log(k);
 }
 
 Function *Hyperbola::differential() {
-    return new Log(k);//new Hyperbola();
+    return new Hyperbola(k, 2);//new Hyperbola();
 }
 
 Point2d Hyperbola::max_of_func(double start, double stop) {
     //Function *d = this->differential();
     double start_v, stop_v;
-    bool is_start = false, is_stop = false;
+    bool is_start = true, is_stop = true;
     try{
         start_v = this->value(start);
     } catch( std::invalid_argument){
-        is_start = true;
+        is_start = false;
     };
 
     try{
         stop_v = this->value(stop);
     } catch( std::invalid_argument){
-        is_stop = true;
+        is_stop = false;
     };
 
     if(is_start && is_stop){
@@ -58,17 +59,17 @@ Point2d Hyperbola::max_of_func(double start, double stop) {
 
 Point2d Hyperbola::min_of_func(double start, double stop) {
     double start_v, stop_v;
-    bool is_start = false, is_stop = false;
+    bool is_start = true, is_stop = true;
     try{
         start_v = this->value(start);
     } catch( std::invalid_argument){
-        is_start = true;
+        is_start = false;
     };
 
     try{
         stop_v = this->value(stop);
     } catch( std::invalid_argument){
-        is_stop = true;
+        is_stop = false;
     };
 
     if(is_start && is_stop){
@@ -88,6 +89,14 @@ Point2d Hyperbola::min_of_func(double start, double stop) {
 }
 
 std::string Hyperbola::get_expression() {
-    return std::to_string(k)+"/x";
+    std::string ans = "";
+    if(k>1){
+        ans+= std::to_string(k)+"*";
+    }
+    if(n>1){
+        ans += "1/(x^"+ std::to_string(n) + ")";
+    }else{
+        ans += "1/x";
+    }
+    return ans;
 }
-

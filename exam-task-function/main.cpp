@@ -19,7 +19,8 @@ int main() {
         "Base",
         "Parabola",
         "Hyperbola",
-        "Exponential"
+        "Exponential",
+
     };
 
     vector<Function*> funcs(10);
@@ -38,8 +39,18 @@ int main() {
     }
 
     for(int i = 0; i < 10; i++){
+        cout << "-----------------------------------\n";
+        cout << "start func\n";
         cout << funcs[i]->get_expression() << '\n';
+        cout << "integral of start func\n";
+        cout << funcs[i]->integral()->get_expression() << " + C\n";
+        cout << "diff of start func\n";
         cout << funcs[i]->differential()->get_expression() << "\n";
+        cout << "maximum of start func\n";
+        cout << funcs[i]->max_of_func(-10, 10) << "\n";
+        cout << "minimum of start func\n";
+        cout << funcs[i]->min_of_func(-10, 10) << "\n";
+        cout << "-----------------------------------\n";
     }
 
     return 0;

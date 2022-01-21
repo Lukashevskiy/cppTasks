@@ -12,6 +12,12 @@ double Log::value(double x) {
 }
 
 std::string Log::get_expression() {
+    std::string ans = "";
+    if(k>1) {
+        ans += std::to_string(k)+"*";
+    }
+    ans+="ln(x)";
+    return ans;
     return std::to_string(k)+"*ln(x)";
 }
 

@@ -94,6 +94,12 @@
 		<Unit filename="/home/dmitriy/Documents/cppTasks/exam-task-function/Function.h">
 			<Option target="exam_task_function"/>
 		</Unit>
+		<Unit filename="/home/dmitriy/Documents/cppTasks/exam-task-function/Hard_function.cpp">
+			<Option target="exam_task_function"/>
+		</Unit>
+		<Unit filename="/home/dmitriy/Documents/cppTasks/exam-task-function/Hard_function.h">
+			<Option target="exam_task_function"/>
+		</Unit>
 		<Unit filename="/home/dmitriy/Documents/cppTasks/exam-task-function/Hyperbola.cpp">
 			<Option target="exam_task_function"/>
 		</Unit>
