@@ -43,7 +43,12 @@ Point2d Exponential::min_of_func(double start, double stop) {
 }
 
 std::string Exponential::get_expression() {
-    return std::to_string(k)+"*e^x";
+    std::string ans;
+    if(k>1){
+        ans+= std::to_string(k)+"*";
+    }
+    ans += "e^x";
+    return ans;
 }
 
 

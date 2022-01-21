@@ -10,8 +10,16 @@ class Hard_function : public Function{
 private:
     Function *out;
     Function *in;
+    Point2d min_of_func(double start, double stop) override;
+    Point2d max_of_func(double start, double stop) override;
+
+    Function * integral() override;
 public:
-    
+    Hard_function(Function *new_out, Function *new_in);
+    double value(double x) override;
+    Function * differential() override;
+    std::string get_expression() override;
+
 };
 
 

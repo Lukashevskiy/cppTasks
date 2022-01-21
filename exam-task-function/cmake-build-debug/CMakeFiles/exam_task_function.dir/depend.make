@@ -11,6 +11,12 @@ CMakeFiles/exam_task_function.dir/Function.cpp.o: \
  ../Function.cpp \
  ../Function.h \
  ../Point2d.h
+CMakeFiles/exam_task_function.dir/Hard_function.cpp.o: \
+ ../Function.h \
+ ../Hard_function.cpp \
+ ../Hard_function.h \
+ ../Point2d.h \
+ ../Polinom.h
 CMakeFiles/exam_task_function.dir/Hyperbola.cpp.o: \
  ../Function.h \
  ../Hyperbola.cpp \
@@ -46,6 +52,7 @@ CMakeFiles/exam_task_function.dir/Polinom.cpp.o: \
 CMakeFiles/exam_task_function.dir/main.cpp.o: \
  ../Exponential.h \
  ../Function.h \
+ ../Hard_function.h \
  ../Hyperbola.h \
  ../Parabola.h \
  ../Point2d.h \

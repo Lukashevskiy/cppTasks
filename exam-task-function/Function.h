@@ -26,6 +26,10 @@ public:
     [[nodiscard]] std::string get_type() const{
         return this->type;
     };
+    [[nodiscard]] double get_k() const{
+        return this->k;
+    }
+    void set_k(double new_k);
     //explicit Function(std::string new_type);
     explicit Function(std::string new_type, double new_k, int new_n);
     //Function();

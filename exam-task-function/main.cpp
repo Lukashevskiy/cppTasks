@@ -7,6 +7,7 @@
 #include "Parabola.h"
 #include "Exponential.h"
 #include "Hyperbola.h"
+#include "Hard_function.h"
 using namespace std;
 
 ostream &operator<<(ostream &out, const Function& f ){
@@ -38,7 +39,7 @@ int main() {
         }
     }
 
-    for(int i = 0; i < 10; i++){
+    for(int i = 0; i < 10; i++) {
         cout << "-----------------------------------\n";
         cout << "start func\n";
         cout << funcs[i]->get_expression() << '\n';
@@ -52,6 +53,16 @@ int main() {
         cout << funcs[i]->min_of_func(-10, 10) << "\n";
         cout << "-----------------------------------\n";
     }
-
+    cout << "##################################\n";
+    for(int i = 0; i < 10; i++){
+        for(int j = 0; j < 5; j++){
+            Function *f = new Hard_function(funcs[i], funcs[j]);
+            cout << "expression \n";
+            cout << f->get_expression();
+            cout << endl;
+            cout << "diff expression \n";
+            cout << f->differential()->get_expression() << endl;
+        }
+    }
     return 0;
 }

@@ -11,6 +11,12 @@ CMakeFiles/exam_task_function.dir/Function.cpp.o
  /home/dmitriy/Documents/cppTasks/exam-task-function/Function.cpp
  /home/dmitriy/Documents/cppTasks/exam-task-function/Function.h
  /home/dmitriy/Documents/cppTasks/exam-task-function/Point2d.h
+CMakeFiles/exam_task_function.dir/Hard_function.cpp.o
+ /home/dmitriy/Documents/cppTasks/exam-task-function/Function.h
+ /home/dmitriy/Documents/cppTasks/exam-task-function/Hard_function.cpp
+ /home/dmitriy/Documents/cppTasks/exam-task-function/Hard_function.h
+ /home/dmitriy/Documents/cppTasks/exam-task-function/Point2d.h
+ /home/dmitriy/Documents/cppTasks/exam-task-function/Polinom.h
 CMakeFiles/exam_task_function.dir/Hyperbola.cpp.o
  /home/dmitriy/Documents/cppTasks/exam-task-function/Function.h
  /home/dmitriy/Documents/cppTasks/exam-task-function/Hyperbola.cpp
@@ -46,6 +52,7 @@ CMakeFiles/exam_task_function.dir/Polinom.cpp.o
 CMakeFiles/exam_task_function.dir/main.cpp.o
  /home/dmitriy/Documents/cppTasks/exam-task-function/Exponential.h
  /home/dmitriy/Documents/cppTasks/exam-task-function/Function.h
+ /home/dmitriy/Documents/cppTasks/exam-task-function/Hard_function.h
  /home/dmitriy/Documents/cppTasks/exam-task-function/Hyperbola.h
  /home/dmitriy/Documents/cppTasks/exam-task-function/Parabola.h
  /home/dmitriy/Documents/cppTasks/exam-task-function/Point2d.h
