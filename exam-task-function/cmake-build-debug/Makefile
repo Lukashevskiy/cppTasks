@@ -225,6 +225,30 @@ Line.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exam_task_function.dir/build.make CMakeFiles/exam_task_function.dir/Line.cpp.s
 .PHONY : Line.cpp.s
 
+Log.o: Log.cpp.o
+.PHONY : Log.o
+
+# target to build an object file
+Log.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exam_task_function.dir/build.make CMakeFiles/exam_task_function.dir/Log.cpp.o
+.PHONY : Log.cpp.o
+
+Log.i: Log.cpp.i
+.PHONY : Log.i
+
+# target to preprocess a source file
+Log.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exam_task_function.dir/build.make CMakeFiles/exam_task_function.dir/Log.cpp.i
+.PHONY : Log.cpp.i
+
+Log.s: Log.cpp.s
+.PHONY : Log.s
+
+# target to generate assembly for a file
+Log.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exam_task_function.dir/build.make CMakeFiles/exam_task_function.dir/Log.cpp.s
+.PHONY : Log.cpp.s
+
 Parabola.o: Parabola.cpp.o
 .PHONY : Parabola.o
 
@@ -342,6 +366,9 @@ help:
 	@echo "... Line.o"
 	@echo "... Line.i"
 	@echo "... Line.s"
+	@echo "... Log.o"
+	@echo "... Log.i"
+	@echo "... Log.s"
 	@echo "... Parabola.o"
 	@echo "... Parabola.i"
 	@echo "... Parabola.s"

@@ -17,8 +17,15 @@ CMakeFiles/exam_task_function.dir/Hyperbola.cpp.o: \
  ../Hyperbola.h \
  ../Parabola.h \
  ../Point2d.h
+CMakeFiles/exam_task_function.dir/Line.cpp.o: \
+ ../Function.h \
+ ../Line.cpp \
+ ../Line.h \
+ ../Parabola.h \
+ ../Point2d.h
 CMakeFiles/exam_task_function.dir/Parabola.cpp.o: \
  ../Function.h \
+ ../Line.h \
  ../Parabola.cpp \
  ../Parabola.h \
  ../Point2d.h

@@ -106,6 +106,12 @@
 		<Unit filename="/home/dmitriy/Documents/cppTasks/exam-task-function/Line.h">
 			<Option target="exam_task_function"/>
 		</Unit>
+		<Unit filename="/home/dmitriy/Documents/cppTasks/exam-task-function/Log.cpp">
+			<Option target="exam_task_function"/>
+		</Unit>
+		<Unit filename="/home/dmitriy/Documents/cppTasks/exam-task-function/Log.h">
+			<Option target="exam_task_function"/>
+		</Unit>
 		<Unit filename="/home/dmitriy/Documents/cppTasks/exam-task-function/Parabola.cpp">
 			<Option target="exam_task_function"/>
 		</Unit>
